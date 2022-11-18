@@ -16,7 +16,7 @@ def even_number():
             return correct_answers
         else:
             random_number = randint(1, 100)
-            print('Question:' + str(random_number))
+            print('Question:' + random_number)
             if random_number%2 == 0:
                 right_answer = 'Yes'
             else:
