@@ -3,12 +3,12 @@
 
 <a href="https://codeclimate.com/github/u-shev/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/cf4104dc58f1dc7f476c/maintainability" /></a>
 
-step 5 https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33
+Even game https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33
 
-calc-game https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33
+Calculator game https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33
 
-gcd-game https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33
+Gcd game https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33
 
-progression-game https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33
+Progression game https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33
  
-prime-game https://asciinema.org/a/r2qh7zW5yZy7zmAvPebxl3UHI
+Prime game https://asciinema.org/a/r2qh7zW5yZy7zmAvPebxl3UHI
