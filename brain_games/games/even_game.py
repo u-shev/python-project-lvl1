@@ -2,7 +2,7 @@
 
 from random import randint
 
-MAIN_QUESTION = 'Answer "yes" if number even otherwise answer "no".'
+MAIN_QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def tasks_inputs():
     random_number = randint(1,100)
