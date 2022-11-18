@@ -2,7 +2,9 @@
 
 from random import randint, choice
 
+
 MAIN_QUESTION = 'What is the result of the expression?'
+
 
 def tasks_inputs():
     operation = choice('+-*')

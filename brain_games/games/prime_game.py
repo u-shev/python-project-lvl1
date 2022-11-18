@@ -2,9 +2,11 @@
 
 from random import randint
 
+
 MAIN_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 """cheking if number is prime"""
+
 
 def is_prime(number):
     """Check if number is prime or not."""
@@ -19,8 +21,9 @@ def is_prime(number):
 
 """question and correct answer"""
 
+
 def tasks_inputs():
     number = randint(1, 100)
     question = f'{number}'
     correct_answer = 'yes' if is_prime(number) else 'no'
-    return (question,correct_answer)
+    return (question, correct_answer)

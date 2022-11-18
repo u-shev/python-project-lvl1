@@ -3,7 +3,8 @@
 
 
 from brain_games.run_game1 import run_game
-from brain_games.games import prog_game 
+from brain_games.games import prog_game
+
 
 """"run progression game"""
 def main():
