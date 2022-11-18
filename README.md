@@ -3,7 +3,9 @@
 
 <a href="https://codeclimate.com/github/u-shev/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/cf4104dc58f1dc7f476c/maintainability" /></a>
 
-Even game <a href="https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33"/></a>
+Even game
+<a href="https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33"><img src="https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33.png" width="836"/></a>
+<a href="https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33"><img src="https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33.png"/></a>
 
 Calculator game https://asciinema.org/connect/d0297232-f53f-4fb0-96c3-40f1f0a36d33
 
