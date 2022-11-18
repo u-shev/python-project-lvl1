@@ -12,11 +12,11 @@ def is_prime(number):
     """Check if number is prime or not."""
     if number < 2 or not number % 2:
         return False
-    counter = 3
+    counter = 2
     while counter <= number // 2:
         if not number % counter:
             return False
-        counter += 2
+        counter += 1
     return True
 
 
