@@ -17,5 +17,5 @@ def is_even(random_number):
 def round_inputs():
     random_number = get_random_number()
     question = f'{random_number}'
-    correct_answer = 'yes' if is_even(number) else 'no'
+    correct_answer = 'yes' if is_even(random_number) else 'no'
     return question, correct_answer
