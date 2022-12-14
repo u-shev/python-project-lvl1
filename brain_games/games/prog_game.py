@@ -2,19 +2,36 @@
 from random import randint
 
 
-MAIN_QUESTION = 'What number is missing in the progression?'
+RULES = 'What number is missing in the progression?'
+MIN_NUMBER_OF_TERMS = 10
+MAX_NUMBER_OF_TERMS = 20
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 
 
-def tasks_inputs():
-    start = randint(1, 10)
-    step = randint(2, 5)
-    progression = [str(start)]
-    for _ in range(10):
-        progression.append(str(start + step))
-        start = start + step
-    random_index = randint(0, (len(progression) - 1))
-    missing_number = progression[random_index]
-    progression[random_index] = str('..')
-    question = ' '.join(progression)
-    correct_answer = missing_number
+"""making a progression"""
+def make_progression(initial_term, common_difference):
+     member_of_progression, progression = initial_term, [initial_term]
+     for i in range(MIN_NUMBER_OF_TERMS, MAX_NUMBER_OF_TERMS):
+         member_of_progression += common_difference
+         progression.append(member_of_progression)
+     return progression
+
+
+"""changing int into a str and searching missing number"""
+def make_string_progression(progression, missing_number):
+    string_progression = []
+    for index in range (0, len(progression) - 1):
+       string_progression.append(str(progression[index]))
+    string_progression[missing_number] = '..'
+    return " ".join(string_progression)
+
+
+def round_inputs():
+    initial_term = randint(MIN_NUMBER, MAX_NUMBER)
+    common_difference = randint(MIN_NUMBER, MAX_NUMBER)
+    progression = make_progression(initial_term, common_difference)
+    missing_number = randint(0, len(progression) - 1)
+    question = make_string_progression(progression, missing_number)
+    correct_answer = str(progression[missing_number])
     return question, correct_answer

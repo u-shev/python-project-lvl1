@@ -1,9 +1,9 @@
 """special questions for prime game"""
 
-from random import randint
+from brain_games.engine import get_random_number
 
 
-MAIN_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+ROUNDS = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 """cheking if number is prime"""
 
@@ -23,8 +23,8 @@ def is_prime(number):
 """question and correct answer"""
 
 
-def tasks_inputs():
-    number = randint(2, 100)
+def round_inputs():
+    number = get_random_number()
     question = f'{number}'
     correct_answer = 'yes' if is_prime(number) else 'no'
     return (question, correct_answer)
