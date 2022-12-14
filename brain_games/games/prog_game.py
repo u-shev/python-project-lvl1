@@ -5,8 +5,8 @@ from random import randint
 RULES = 'What number is missing in the progression?'
 MIN_NUMBER_OF_TERMS = 10
 MAX_NUMBER_OF_TERMS = 20
-MIN_NUMBER = 1
-MAX_NUMBER = 100
+MIN_NUMBER = 5
+MAX_NUMBER = 15
 
 
 """making a progression"""
