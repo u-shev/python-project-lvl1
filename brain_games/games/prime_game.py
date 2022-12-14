@@ -3,7 +3,7 @@
 from brain_games.engine import get_random_number
 
 
-ROUNDS = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 """cheking if number is prime"""
 
