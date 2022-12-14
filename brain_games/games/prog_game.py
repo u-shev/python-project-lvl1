@@ -23,7 +23,7 @@ def make_string_progression(progression, missing_number):
     string_progression = []
     for index in range (0, len(progression) - 1):
        string_progression.append(str(progression[index]))
-    str(progression[missing_number]) = '..'
+    string_progression[missing_number] = '..'
     return " ".join(string_progression)
 
 
@@ -31,7 +31,7 @@ def round_inputs():
     initial_term = randint(MIN_NUMBER, MAX_NUMBER)
     common_difference = randint(MIN_NUMBER, MAX_NUMBER)
     progression = make_progression(initial_term, common_difference)
-    missing_number = randint(0, len(progression) - 1)
+    missing_number = randint(1, len(progression) - 1)
     question = make_string_progression(progression, missing_number)
     correct_answer = str(progression[missing_number])
     return question, correct_answer
