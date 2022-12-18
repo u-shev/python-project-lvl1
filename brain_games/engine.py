@@ -3,10 +3,9 @@ from random import randint
 
 
 FIRST_RANDOM_NUMBER = 1
-
 LAST_RANDOM_NUMBER = 100
-
 NUMBER_OF_ROUNDS = 3
+
 
 """Explaining main game"""
 def run(game):
@@ -29,6 +28,8 @@ def run(game):
 
 
 """Getting random number from range"""
+
+
 def get_random_number():
     random_number = randint(FIRST_RANDOM_NUMBER, LAST_RANDOM_NUMBER)
     return random_number
