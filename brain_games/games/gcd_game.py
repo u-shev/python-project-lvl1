@@ -3,7 +3,7 @@ from brain_games.engine import get_random_number
 from math import gcd
 
 
-RULES  = 'Find the greatest common divisor of given numbers.'
+RULES = 'Find the greatest common divisor of given numbers.'
 
 
 def round_inputs():

@@ -13,29 +13,29 @@ MAX_NUMBER = 15
 
 
 def make_progression(initial_term, common_difference):
-     member_of_progression, progression = initial_term, [initial_term]
-     for i in range(MIN_NUMBER_OF_TERMS, MAX_NUMBER_OF_TERMS):
-          member_of_progression += common_difference
-          progression.append(member_of_progression)
-     return progression
+    member_of_progression, progression = initial_term, [initial_term]
+    for i in range(MIN_NUMBER_OF_TERMS, MAX_NUMBER_OF_TERMS):
+        member_of_progression += common_difference
+        progression.append(member_of_progression)
+    return progression
 
 
 """changing int into a str and searching missing number"""
 
 
 def make_string_progression(progression, missing_number):
-     string_progression = []
-     for index in range(0, len(progression)):
-          string_progression.append(str(progression[index]))
-     string_progression[missing_number] = '..'
-     return " ".join(string_progression)
+    string_progression = []
+    for index in range(0, len(progression)):
+        string_progression.append(str(progression[index]))
+    string_progression[missing_number] = '..'
+    return " ".join(string_progression)
 
 
 def round_inputs():
-     initial_term = randint(MIN_NUMBER, MAX_NUMBER)
-     common_difference = randint(MIN_NUMBER, MAX_NUMBER)
-     progression = make_progression(initial_term, common_difference)
-     missing_number = randint(1, len(progression) - 1)
-     question = make_string_progression(progression, missing_number)
-     correct_answer = str(progression[missing_number])
-     return question, correct_answer
+    initial_term = randint(MIN_NUMBER, MAX_NUMBER)
+    common_difference = randint(MIN_NUMBER, MAX_NUMBER)
+    progression = make_progression(initial_term, common_difference)
+    missing_number = randint(1, len(progression) - 1)
+    question = make_string_progression(progression, missing_number)
+    correct_answer = str(progression[missing_number])
+    return question, correct_answer
