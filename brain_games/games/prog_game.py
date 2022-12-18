@@ -31,7 +31,7 @@ def round_inputs():
     initial_term = randint(MIN_NUMBER, MAX_NUMBER)
     common_difference = randint(MIN_NUMBER, MAX_NUMBER)
     progression = make_progression(initial_term, common_difference)
-    missing_number = randint(0, len(progression)
+    missing_number = randint(0, len(progression))
     question = make_string_progression(progression, missing_number)
     correct_answer = str(progression[missing_number])
     return question, correct_answer
