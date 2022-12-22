@@ -3,6 +3,8 @@
 
 <a href="https://codeclimate.com/github/u-shev/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/cf4104dc58f1dc7f476c/maintainability" /></a>
 
+This project includes 5 simple math games, each of them is described and demonstrated below. To install games use "make package-install"
+
 Game installation and welcome to the brain games
 
 <a href="https://asciinema.org/a/xD5MG8c88av367k8JpCPMwL00" target="_blank"><img src="https://asciinema.org/a/xD5MG8c88av367k8JpCPMwL00.svg" /></a>
