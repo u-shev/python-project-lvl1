@@ -1,16 +1,17 @@
 """special questions for calculator game"""
 
-from brain_games.engine import get_random_number
-from random import choice
+from random import choice, randint
 
 
+FIRST_RANDOM_NUMBER = 1
+LAST_RANDOM_NUMBER = 100
 RULES = 'What is the result of the expression?'
 
 
-def round_inputs():
+def get_round_inputs():
     operation = choice('+-*')
-    random_number1 = get_random_number()
-    random_number2 = get_random_number()
+    random_number1 = randint(FIRST_RANDOM_NUMBER, LAST_RANDOM_NUMBER)
+    random_number2 = randint(FIRST_RANDOM_NUMBER, LAST_RANDOM_NUMBER)
     question = f'{random_number1} {operation} {random_number2}'
     correct_answer = ''
     if operation == '+':
